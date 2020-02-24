@@ -5,4 +5,4 @@ burger logging application
 https://infinite-waters-23370.herokuapp.com
 
 # Example of application output
-![screenshot](./public/assets/images/untitled.png)
+![screenshot](./public/assets/images/Untitled.png)
