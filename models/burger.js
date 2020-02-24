@@ -7,9 +7,12 @@ const burger = {
     addBurger: (burgerName, cb) => {
         orm.insertOne("burgers", "burger_name", "devoured", burgerName, false, cb);
     },
-    updateBurger: (objColsVals, burgerID, cb) => {
-        orm.updateOne("burgers", objColsVals, burgerID, cb)
+    updateBurger: (devoured, burgerID, cb) => {
+        orm.updateOne("burgers", devoured, burgerID, cb);
+    },
+    deleteBurger: (burgerID, cb) => {
+        orm.deleteOne("burgers", burgerID, cb);
     }
-}
+};
 
-module.exports = burger
+module.exports = burger;

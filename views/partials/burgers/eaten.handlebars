@@ -1,12 +1,16 @@
-<div class="columns">
-    <div class="column is-8 is-offset-4">
+<div class="columns is-vcentered">
+    <div class="column is-4">
+        <div class="buttons is-pulled-right">
+            <a data-id="{{id}}" class="button is-primary remake">REMAKE</a>
+        </div>
+    </div>
+    <div class="column is-8">
         <div class="box is-block">
             <article class="media">
                 <div class="media-content">
-                    <div class="content">
-                        <p>
-                            {{burger_name}}
-                        </p>
+                    <div class="control content has-icons-right is-size-7">
+                        <div>{{burger_name}}</div>
+                        <i data-id="{{id}}" class="icon is-right fas fa-trash-alt"></i>
                     </div>
                 </div>
             </article>
