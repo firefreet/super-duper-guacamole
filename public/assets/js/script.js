@@ -1,6 +1,6 @@
 $(document).ready(() => {
     const burgerTextEl = $("#addBurgerText")
-        // burgerTextEl.focus();
+    burgerTextEl.focus();
     $("#addBurgerBtn").on("click", (event) => {
         event.preventDefault();
         const burgerName = $("#addBurgerText").val().trim();
