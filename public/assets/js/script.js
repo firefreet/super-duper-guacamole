@@ -45,6 +45,7 @@ $(document).ready(() => {
 
     $(".fa-trash-alt").on("click", function(event) {
         event.preventDefault();
+        console.log($(this).data("id"))
         var id = $(this).data("id");
         $.ajax(`/api/burgers/${id}`, {
             type: "DELETE",
