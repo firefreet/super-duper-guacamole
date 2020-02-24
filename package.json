@@ -1,31 +1,30 @@
 {
-  "name": "buger-app",
-  "version": "1.0.0",
-  "description": "burger logging application",
-  "main": "server.js",
-  "scripts": {
-    "css-build": "node-sass --omit-source-map-url public/assets/sass/style.scss public/assets/css/style.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/firefreet/super-duper-guacamole.git"
-  },
-  "author": "Jeremy Marotta",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/firefreet/super-duper-guacamole/issues"
-  },
-  "homepage": "https://github.com/firefreet/super-duper-guacamole#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {
-    "bulma": "^0.8.0",
-    "node-sass": "^4.13.1"
-  }
+    "name": "burger-app",
+    "version": "1.0.0",
+    "description": "burger logging application",
+    "main": "server.js",
+    "scripts": {
+        // "css-build": "node-sass --omit-source-map-url public/assets/sass/style.scss public/assets/css/style.css",
+        // "css-watch": "npm run css-build -- --watch",
+        // "start": "npm run css-watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/firefreet/super-duper-guacamole.git"
+    },
+    "author": "Jeremy Marotta",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/firefreet/super-duper-guacamole/issues"
+    },
+    "homepage": "https://github.com/firefreet/super-duper-guacamole#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^3.1.0",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "bulma": "^0.8.0",
+        "node-sass": "^4.13.1"
+    }
 }
