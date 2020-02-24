@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "css-build": "node-sass --omit-source-map-url public/assets/sass/style.scss public/assets/css/style.css",
+        "css-watch": "npm run css-build -- --watch",
+        "start": "npm run css-watch"
+    }
+}

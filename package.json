@@ -3,11 +3,6 @@
     "version": "1.0.0",
     "description": "burger logging application",
     "main": "server.js",
-    "scripts": {
-        // "css-build": "node-sass --omit-source-map-url public/assets/sass/style.scss public/assets/css/style.css",
-        // "css-watch": "npm run css-build -- --watch",
-        // "start": "npm run css-watch"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/firefreet/super-duper-guacamole.git"
